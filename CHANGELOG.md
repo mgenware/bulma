@@ -7,10 +7,20 @@
 * #1884 New `$navbar-burger-color` variable
 * #1679 Add breakpoint based column gaps
 * #1905 Fix `modal` for IE11 #1902
+* #1919 New `is-arrowless` class for navbar items
+* #1764 New `.is-sr-only` helper
+
+### Improvements
+
+* #1964 Allow `.notification` to have a `.dropdown-item`
+* #1999 Change `$border` to `$grey-lighter` in mixins
 
 ### Bug fixes
 
 * #1749 Fix icons floating out of input area
+* #1993 Fixes #1992 Prevent disabled form elements hover state from overlapping, if control has add-ons elements
+* #1909 Fix Modal card in IE11
+* #1908 Fix IE11 when textarea doesn't listen to `size=""`
 
 ## 0.7.1
 
