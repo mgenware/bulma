@@ -396,7 +396,7 @@ breadcrumb:
   <tbody>
   <tr>
     <td><code>has-text-weight-light</code></td>
-    <td>Transforms  text weight to <strong>light</strong></td>
+    <td>Transforms text weight to <strong>light</strong></td>
   </tr>
   <tr>
     <td><code>has-text-weight-normal</code></td>
@@ -412,3 +412,37 @@ breadcrumb:
   </tr>
   </tbody>
 </table>
+
+{% include elements/anchor.html name="Font family" %}
+
+{% include elements/new-tag.html version="0.7.4" %}
+
+<div class="content">
+  <p>
+    You can change the font family with the use of one of <strong>3 font family helpers</strong>:
+  </p>
+</div>
+
+{% assign font_families = "sans-serif,monospace,primary,secondary,code" | split: ',' %}
+
+<table class="table is-bordered">
+  <thead>
+    <tr>
+      <th>
+        Class
+      </th>
+      <th>
+        Family
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for family in font_families %}
+      <tr>
+        <td><code>is-family-{{ family }}</code></td>
+        <td>Sets font family to <code>$family-{{ family }}</code></td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+

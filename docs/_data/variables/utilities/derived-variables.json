@@ -301,6 +301,13 @@
       "computed_type": "font-family",
       "computed_value": "BlinkMacSystemFont, -apple-system, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", \"Helvetica\", \"Arial\", sans-serif"
     },
+    "$family-secondary": {
+      "name": "$family-secondary",
+      "value": "$family-sans-serif",
+      "type": "variable",
+      "computed_type": "font-family",
+      "computed_value": "BlinkMacSystemFont, -apple-system, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", \"Helvetica\", \"Arial\", sans-serif"
+    },
     "$family-code": {
       "name": "$family-code",
       "value": "$family-monospace",
@@ -406,6 +413,7 @@
     "$link-active",
     "$link-active-border",
     "$family-primary",
+    "$family-secondary",
     "$family-code",
     "$size-small",
     "$size-normal",
